@@ -1,0 +1,72 @@
+.main-title{
+	font-weight: 600;
+	font-size: 1.8em;
+	margin-top: 20px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebunchet MS', sans-serif;
+}
+.title {
+	font-weight: 600;
+	font-size: 1.4em;
+	border-radius: 3px;
+	border: 2px solid black;
+	width: 120px;
+	height: 35px;
+	margin-left: 271px;
+}
+.title .infotitle {
+	background-color: rgb(226,150,200);
+	padding-left: 20px;
+	height: 100%;
+	color:white;
+}
+.title .infotitle1 {
+	background-color: rgb(210,155,220);
+	padding-left: 20px;
+	height: 100%;
+	color:white;
+}
+.title .infotitle2 {
+	background-color: rgb(256,110,100);
+	padding-left: 20px;
+	height: 100%;
+	color:white;
+}
+.content {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.content .card {
+	font-size: 1em;
+	background-color: rgb(150,125,140);
+	border-radius: 6px;
+	border: 2px solid black;
+	width: 400px;
+	height:170px;
+	margin: 10px;
+	padding: 0;
+}
+.card .info h4{
+	margin-left: 20px;
+	font-size: 1em;
+	margin-bottom: 100px:;
+}
+@media (min-width: 992px) {
+	body {
+
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	#card3{
+		width: 91%;
+	}
+	#card3 .title{
+		float: left;
+		margin-left: 698px;
+	}
+	#card3 .info{
+		width: 100%
+		height: 0;
+	}
+}
